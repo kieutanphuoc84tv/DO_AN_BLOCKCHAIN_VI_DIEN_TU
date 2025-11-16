@@ -48,18 +48,6 @@ Invoke-RestMethod -Uri http://127.0.0.1:5000/balance/Alice -Method Get
 # Lấy chain
 Invoke-RestMethod -Uri http://127.0.0.1:5000/chain -Method Get
 ```
+DEMO CODE 
 
-Streamlit demo
-
-- Sau khi server Flask chạy, khởi Streamlit UI để demo giao diện và chức năng:
-
-```powershell
-streamlit run "d:\CODE PYTHON\demo_v6_streamlit.py"
-```
-
-Notes (gợi ý nộp đồ án)
-- Bao gồm: notebook `DOANTIMHIEUBLOCKCHAINVAVITIEN.ipynb`, `README.md`, `requirements.txt`, `demo_v6_streamlit.py`.
-- Nếu cần nộp báo cáo, soạn file PDF mô tả kiến trúc (Block/Transaction), proof-of-work, hạn chế và hướng mở rộng.
-
-Liên hệ
-- Nếu cần mình có thể tách project thành module `.py`, thêm unit tests tự động và tạo file slide mẫu.
+- sử dụng thunder client để chạy thử và kiểm nghiệm 
