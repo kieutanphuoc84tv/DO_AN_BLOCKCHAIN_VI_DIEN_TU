@@ -1,5 +1,10 @@
 # Đồ án: Mô phỏng Blockchain và Ví Tiền Điện Tử (Python)
 
+SINH VIÊN THỰC HIỆN:
+- Họ và Tên: KIỀU TẤN PHƯỚC
+- MSSV:110122144
+- Lớp DA22TTB
+
 Mục tiêu
 - Nắm nguyên lý Blockchain: block, hash, nonce, proof-of-work.
 - Xây dựng chương trình mô phỏng chuỗi khối đơn giản bằng Python.
@@ -52,4 +57,5 @@ DEMO CODE
 
 - sử dụng thunder client để chạy thử và kiểm nghiệm
 - chạy code ở jupyter bằng stream ui để hiện giao diện mining và hiện ví tiền
+
 
