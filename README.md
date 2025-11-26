@@ -1,5 +1,4 @@
-# Giới thiệu đồ án: Tìm hiểu cơ bản về Blockchain 
-# và Ví Tiền Điện Tử (Python)
+# Giới thiệu đồ án: Tìm hiểu cơ bản về Blockchain và Ví Tiền Điện Tử (Python)
 
 ## 📋 Mục lục
 1. [Giới thiệu về Blockchain](#giới-thiệu-về-blockchain)
