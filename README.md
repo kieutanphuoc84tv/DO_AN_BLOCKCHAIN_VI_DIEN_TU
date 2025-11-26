@@ -402,7 +402,6 @@ http://127.0.0.1:5000
 - ✅ Hiểu rõ cấu trúc và nguyên lý blockchain
 - ✅ Nắm vững Proof of Work
 - ✅ Thực hành mã hóa và chữ ký số
-- ✅ Xây dựng API RESTful
 - ✅ Tạo giao diện tương tác với Python
 
 ### Ứng dụng thực tế
@@ -440,3 +439,4 @@ Dự án này có thể được mở rộng thành:
 ---
 
 **Chúc bạn thành công với đồ án! 🚀**
+
