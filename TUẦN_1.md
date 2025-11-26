@@ -211,18 +211,3 @@ Mọi góp ý và đóng góp đều được hoan nghênh! Vui lòng tạo **Is
 - 📧 **Email**: 110122144@st.tvu.edu.vn
 - 🔗 **GitHub**: [@kieutanphuoc84tv](https://github.com/kieutanphuoc84tv)
 
----
-
-## 📜 License
-
-Đồ án này được thực hiện cho mục đích học tập tại Trường Đại học Trà Vinh.
-
----
-
-<div align="center">
-
-**⭐ Nếu thấy hữu ích, hãy cho repo một ngôi sao! ⭐**
-
-Made with ❤️ by Kiều Tấn Phước
-
-</div>
