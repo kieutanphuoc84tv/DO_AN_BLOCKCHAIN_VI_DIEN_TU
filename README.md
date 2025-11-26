@@ -436,7 +436,5 @@ Dự án này có thể được mở rộng thành:
 - [ECDSA Documentation](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
 - [Flask Documentation](https://flask.palletsprojects.com/)
 
----
 
-**Chúc bạn thành công với đồ án! 🚀**
 
