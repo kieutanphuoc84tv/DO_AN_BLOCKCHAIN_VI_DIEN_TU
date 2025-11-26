@@ -197,14 +197,6 @@ while block.hash[:difficulty] != target:
 - [ ] Học về **khóa công khai** và **khóa riêng tư**
 - [ ] Xây dựng prototype ví đơn giản
 
----
-
-## 🤝 Đóng Góp
-
-Mọi góp ý và đóng góp đều được hoan nghênh! Vui lòng tạo **Issue** hoặc **Pull Request**.
-
----
-
 ## 📧 Liên Hệ
 
 - 👤 **Sinh viên**: Kiều Tấn Phước
