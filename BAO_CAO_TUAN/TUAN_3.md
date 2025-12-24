@@ -1,84 +1,103 @@
-# BAO CAO TUAN 3
+# Đồ Án: Blockchain Cơ Bản và Ví Tiền Điện Tử
 
-## Thong tin co ban
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Learning-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- **Thoi gian**: Tu 08/12/2025 den 14/12/2025
-- **Giai doan**: Tuan 3 - Thiet ke va xay dung chuong trinh
+## Thông Tin Đồ Án
 
-## Noi dung cong viec
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Kiều Tấn Phước |
+| **MSSV** | 110122144 |
+| **Lớp** | DA22TTB |
+| **Giảng viên** | ThS. Phan Thị Phương Nam |
+| **Trường** | Đại học Trà Vinh |
+| **Khoa** | Kỹ Thuật và Công Nghệ Thông Tin |
 
-### 1. Thiet ke cau truc Block
+---
 
-Tao class Block voi cac thanh phan:
-- index: So thu tu block
-- transactions: Danh sach giao dich
-- previous_hash: Hash cua block truoc
-- timestamp: Thoi gian tao
-- nonce: Gia tri dung cho Proof of Work
-- hash: Hash cua block hien tai
+# BÁO CÁO TUẦN 3
 
-### 2. Xay dung class Blockchain
+## Thông tin cơ bản
 
-Cac thanh phan chinh:
-- chain: Mang chua cac block
-- pending_transactions: Giao dich cho xac nhan
-- difficulty: Do kho dao (so luong so 0 o dau hash)
-- mining_reward: Phan thuong dao
+- **Thời gian**: Từ 08/12/2025 đến 14/12/2025
+- **Giai đoạn**: Tuần 3 - Thiết kế và xây dựng chương trình
 
-Cac phuong thuc:
-- create_genesis_block(): Tao block dau tien
-- get_latest_block(): Lay block cuoi cung
-- add_transaction(): Them giao dich moi
-- mine_pending_transactions(): Dao block moi
-- get_balance(): Tinh so du vi
+## Nội dung công việc
 
-### 3. Xay dung he thong vi dien tu
+### 1. Thiết kế cấu trúc Block
 
-Tao class Wallet su dung thu vien ecdsa:
-- Tao cap khoa ECDSA tu dong
-- Phuong thuc ky giao dich (sign_transaction)
-- Phuong thuc xac minh chu ky
+Tạo class Block với các thành phần:
+- **index**: Số thứ tự block
+- **transactions**: Danh sách giao dịch
+- **previous_hash**: Hash của block trước
+- **timestamp**: Thời gian tạo
+- **nonce**: Giá trị dùng cho Proof of Work
+- **hash**: Hash của block hiện tại
 
-### 4. Xay dung giao dien web voi Flask
+### 2. Xây dựng class Blockchain
 
-Cac tinh nang chinh:
-- Tao vi moi
-- Xem danh sach vi
-- Gui giao dich co chu ky
-- Bat/dung tu dong dao
-- Xem Blockchain va lich su giao dich
+**Các thành phần chính:**
+- chain: Mảng chứa các block
+- pending_transactions: Giao dịch chờ xác nhận
+- difficulty: Độ khó đào (số lượng số 0 ở đầu hash)
+- mining_reward: Phần thưởng đào
 
-### 5. Mo phong qua trinh dao (Mining)
+**Các phương thức:**
+- create_genesis_block(): Tạo block đầu tiên
+- get_latest_block(): Lấy block cuối cùng
+- add_transaction(): Thêm giao dịch mới
+- mine_pending_transactions(): Đào block mới
+- get_balance(): Tính số dư ví
 
-Hien thuc Proof of Work:
-- Thu cac gia tri nonce tu 0
-- Tinh hash voi moi nonce
-- Tim hash bat dau bang so luong so 0 theo do kho
-- Hien thi qua trinh that bai va thanh cong
+### 3. Xây dựng hệ thống ví điện tử
 
-### 6. Mo phong mang P2P
+Tạo class Wallet sử dụng thư viện ecdsa:
+- Tạo cặp khóa ECDSA tự động
+- Phương thức ký giao dịch (sign_transaction)
+- Phương thức xác minh chữ ký
 
-Tao 4 node ao de mo phong mang phan tan:
+### 4. Xây dựng giao diện web với Flask
+
+**Các tính năng chính:**
+- Tạo ví mới
+- Xem danh sách ví
+- Gửi giao dịch có chữ ký
+- Bật/dừng tự động đào
+- Xem Blockchain và lịch sử giao dịch
+
+### 5. Mô phỏng quá trình đào (Mining)
+
+Hiện thực Proof of Work:
+- Thử các giá trị nonce từ 0
+- Tính hash với mỗi nonce
+- Tìm hash bắt đầu bằng số lượng số 0 theo độ khó
+- Hiển thị quá trình thất bại và thành công
+
+### 6. Mô phỏng mạng P2P
+
+Tạo 4 node ảo để mô phỏng mạng phân tán:
 - Node_Alpha, Node_Beta, Node_Gamma, Node_Delta
-- Mo phong broadcast block moi den cac node
-- Mo phong dong bo blockchain giua cac node
-- Cho phep bat/tat node de mo phong tinh huong that
+- Mô phỏng broadcast block mới đến các node
+- Mô phỏng đồng bộ blockchain giữa các node
+- Cho phép bật/tắt node để mô phỏng tình huống thật
 
-## Ket qua dat duoc
+## Kết quả đạt được
 
-- Hoan thanh cau truc Block va Blockchain
-- Hoan thanh he thong vi dien tu voi ECDSA
-- Hoan thanh giao dien web voi Flask
-- Hoan thanh mo phong Proof of Work
-- Hoan thanh mo phong mang P2P
-- Ung dung chay duoc tren Jupyter Notebook
+- Hoàn thành cấu trúc Block và Blockchain
+- Hoàn thành hệ thống ví điện tử với ECDSA
+- Hoàn thành giao diện web với Flask
+- Hoàn thành mô phỏng Proof of Work
+- Hoàn thành mô phỏng mạng P2P
+- Ứng dụng chạy được trên Jupyter Notebook
 
-## Kho khan gap phai
+## Khó khăn gặp phải
 
-- Thiet ke giao dien de xem qua trinh mining chi tiet
-- Xu ly dong bo giua frontend va backend
-- Fix loi JavaScript trong viec hien thi du lieu
+- Thiết kế giao diện để xem quá trình mining chi tiết
+- Xử lý đồng bộ giữa frontend và backend
+- Fix lỗi JavaScript trong việc hiển thị dữ liệu
 
-## Ke hoach tuan tiep theo
+## Kế hoạch tuần tiếp theo
 
-Kiem tra, sua loi va hoan thien bao cao, slide thuyet trinh.
+Kiểm tra, sửa lỗi và hoàn thiện báo cáo, slide thuyết trình.

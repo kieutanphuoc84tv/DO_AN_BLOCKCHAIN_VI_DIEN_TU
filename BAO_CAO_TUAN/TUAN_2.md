@@ -1,73 +1,92 @@
-# BAO CAO TUAN 2
+# Đồ Án: Blockchain Cơ Bản và Ví Tiền Điện Tử
 
-## Thong tin co ban
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Learning-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- **Thoi gian**: Tu 24/11/2025 den 30/11/2025
-- **Giai doan**: Tuan 2 - Nghien cuu vi dien tu va co che giao dich
+## Thông Tin Đồ Án
 
-## Noi dung cong viec
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Kiều Tấn Phước |
+| **MSSV** | 110122144 |
+| **Lớp** | DA22TTB |
+| **Giảng viên** | ThS. Phan Thị Phương Nam |
+| **Trường** | Đại học Trà Vinh |
+| **Khoa** | Kỹ Thuật và Công Nghệ Thông Tin |
 
-### 1. Nghien cuu ve vi dien tu (Cryptocurrency Wallet)
+---
 
-Vi dien tu la cong cu quan ly khoa va thuc hien giao dich tren mang Blockchain. Mot vi bao gom:
-- Khoa bi mat (Private Key): Chuoi ky tu bi mat, dung de ky giao dich
-- Khoa cong khai (Public Key): Duoc tao tu khoa bi mat, dung de nhan tien
-- Dia chi vi (Address): Phien ban rut gon cua khoa cong khai
+# BÁO CÁO TUẦN 2
 
-### 2. Co che tao cap khoa
+## Thông tin cơ bản
 
-Su dung thuat toan ECDSA (Elliptic Curve Digital Signature Algorithm) voi duong cong SECP256k1:
-- Tao khoa bi mat ngau nhien 256 bit
-- Tinh khoa cong khai tu khoa bi mat bang phep nhan tren duong cong elliptic
-- Dia chi vi la hash cua khoa cong khai
+- **Thời gian**: Từ 24/11/2025 đến 30/11/2025
+- **Giai đoạn**: Tuần 2 - Nghiên cứu ví điện tử và cơ chế giao dịch
 
-### 3. Co che giao dich
+## Nội dung công việc
 
-Mot giao dich bao gom cac buoc sau:
-- Nguoi gui tao giao dich voi thong tin: nguoi gui, nguoi nhan, so tien
-- Nguoi gui ky giao dich bang khoa bi mat cua minh
-- Giao dich duoc broadcast len mang
-- Cac node xac minh chu ky bang khoa cong khai cua nguoi gui
-- Giao dich hop le duoc dua vao block tiep theo
+### 1. Nghiên cứu về ví điện tử (Cryptocurrency Wallet)
 
-### 4. Chu ky so ECDSA
+Ví điện tử là công cụ quản lý khóa và thực hiện giao dịch trên mạng Blockchain. Một ví bao gồm:
+- **Khóa bí mật (Private Key)**: Chuỗi ký tự bí mật, dùng để ký giao dịch
+- **Khóa công khai (Public Key)**: Được tạo từ khóa bí mật, dùng để nhận tiền
+- **Địa chỉ ví (Address)**: Phiên bản rút gọn của khóa công khai
 
-Chu ky so dam bao:
-- Xac thuc (Authentication): Chung minh giao dich do chu so huu vi tao ra
-- Toan ven (Integrity): Giao dich khong bi sua doi sau khi ky
-- Khong choi bo (Non-repudiation): Nguoi ky khong the phu nhan da ky
+### 2. Cơ chế tạo cặp khóa
 
-Quy trinh ky:
-- Tao hash cua du lieu giao dich
-- Su dung khoa bi mat de tao chu ky tu hash
-- Chu ky duoc dinh kem vao giao dich
+Sử dụng thuật toán ECDSA (Elliptic Curve Digital Signature Algorithm) với đường cong SECP256k1:
+- Tạo khóa bí mật ngẫu nhiên 256 bit
+- Tính khóa công khai từ khóa bí mật bằng phép nhân trên đường cong elliptic
+- Địa chỉ ví là hash của khóa công khai
 
-Quy trinh xac minh:
-- Lay chu ky va du lieu giao dich
-- Su dung khoa cong khai de xac minh chu ky
-- Neu hop le, giao dich duoc chap nhan
+### 3. Cơ chế giao dịch
 
-### 5. Luu tru khoa
+Một giao dịch bao gồm các bước sau:
+1. Người gửi tạo giao dịch với thông tin: người gửi, người nhận, số tiền
+2. Người gửi ký giao dịch bằng khóa bí mật của mình
+3. Giao dịch được broadcast lên mạng
+4. Các node xác minh chữ ký bằng khóa công khai của người gửi
+5. Giao dịch hợp lệ được đưa vào block tiếp theo
 
-Cac phuong phap luu tru khoa bi mat:
-- Luu trong file duoc ma hoa
-- Luu trong phan mem vi (wallet software)
-- Luu trong vi cung (hardware wallet)
-- Ghi ra giay (paper wallet)
+### 4. Chữ ký số ECDSA
 
-## Ket qua dat duoc
+Chữ ký số đảm bảo:
+- **Xác thực (Authentication)**: Chứng minh giao dịch do chủ sở hữu ví tạo ra
+- **Toàn vẹn (Integrity)**: Giao dịch không bị sửa đổi sau khi ký
+- **Không chối bỏ (Non-repudiation)**: Người ký không thể phủ nhận đã ký
 
-- Hieu cau truc va chuc nang cua vi dien tu
-- Nam ro co che tao cap khoa cong khai va bi mat
-- Hieu quy trinh giao dich va vai tro cua chu ky so
-- Hieu cach xac minh giao dich bang chu ky ECDSA
-- San sang cho viec thiet ke va xay dung ung dung
+**Quy trình ký:**
+1. Tạo hash của dữ liệu giao dịch
+2. Sử dụng khóa bí mật để tạo chữ ký từ hash
+3. Chữ ký được đính kèm vào giao dịch
 
-## Kho khan gap phai
+**Quy trình xác minh:**
+1. Lấy chữ ký và dữ liệu giao dịch
+2. Sử dụng khóa công khai để xác minh chữ ký
+3. Nếu hợp lệ, giao dịch được chấp nhận
 
-- Mat ma hoc duong cong elliptic la khai niem phuc tap
-- Can tim hieu them ve bao mat khoa bi mat
+### 5. Lưu trữ khóa
 
-## Ke hoach tuan tiep theo
+Các phương pháp lưu trữ khóa bí mật:
+- Lưu trong file được mã hóa
+- Lưu trong phần mềm ví (wallet software)
+- Lưu trong ví cứng (hardware wallet)
+- Ghi ra giấy (paper wallet)
 
-Thiet ke cau truc block va bat dau xay dung chuong trinh mo phong bang Python.
+## Kết quả đạt được
+
+- Hiểu cấu trúc và chức năng của ví điện tử
+- Nắm rõ cơ chế tạo cặp khóa công khai và bí mật
+- Hiểu quy trình giao dịch và vai trò của chữ ký số
+- Hiểu cách xác minh giao dịch bằng chữ ký ECDSA
+- Sẵn sàng cho việc thiết kế và xây dựng ứng dụng
+
+## Khó khăn gặp phải
+
+- Mật mã học đường cong elliptic là khái niệm phức tạp
+- Cần tìm hiểu thêm về bảo mật khóa bí mật
+
+## Kế hoạch tuần tiếp theo
+
+Thiết kế cấu trúc block và bắt đầu xây dựng chương trình mô phỏng bằng Python.

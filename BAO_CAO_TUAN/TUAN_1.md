@@ -1,65 +1,84 @@
-# BAO CAO TUAN 1
+# Đồ Án: Blockchain Cơ Bản và Ví Tiền Điện Tử
 
-## Thong tin co ban
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Learning-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- **Thoi gian**: Tu 10/11/2025 den 16/11/2025
-- **Giai doan**: Tuan 1 - Nghien cuu ly thuyet Blockchain
+## Thông Tin Đồ Án
 
-## Noi dung cong viec
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Kiều Tấn Phước |
+| **MSSV** | 110122144 |
+| **Lớp** | DA22TTB |
+| **Giảng viên** | ThS. Phan Thị Phương Nam |
+| **Trường** | Đại học Trà Vinh |
+| **Khoa** | Kỹ Thuật và Công Nghệ Thông Tin |
 
-### 1. Tim hieu tong quan ve cong nghe Blockchain
+---
 
-Blockchain la mot cong nghe luu tru du lieu theo cau truc chuoi khoi, trong do moi khoi (block) chua thong tin giao dich va duoc lien ket voi khoi truoc do thong qua gia tri bam (hash). Dac diem quan trong cua Blockchain la tinh bat bien - mot khi du lieu da duoc ghi vao, khong the sua doi ma khong lam thay doi toan bo chuoi.
+# BÁO CÁO TUẦN 1
 
-### 2. Nguyen ly hoat dong
+## Thông tin cơ bản
 
-Blockchain hoat dong dua tren cac nguyen tac sau:
-- Phi tap trung (Decentralized): Khong co may chu trung tam, du lieu duoc phan tan tren nhieu node
-- Minh bach (Transparent): Tat ca giao dich deu cong khai va co the kiem tra
-- Bat bien (Immutable): Du lieu da ghi khong the thay doi
-- Dong thuan (Consensus): Cac node phai dong y ve trang thai cua chuoi
+- **Thời gian**: Từ 10/11/2025 đến 16/11/2025
+- **Giai đoạn**: Tuần 1 - Nghiên cứu lý thuyết Blockchain
 
-### 3. Cau truc Block
+## Nội dung công việc
 
-Moi block trong Blockchain bao gom cac thanh phan:
-- Index: So thu tu cua block trong chuoi
-- Timestamp: Thoi gian tao block
-- Transactions: Danh sach cac giao dich
-- Previous Hash: Gia tri bam cua block truoc do
-- Nonce: Gia tri so duoc dieu chinh de tim hash hop le
-- Hash: Gia tri bam cua block hien tai
+### 1. Tìm hiểu tổng quan về công nghệ Blockchain
 
-### 4. Ham bam SHA-256
+Blockchain là một công nghệ lưu trữ dữ liệu theo cấu trúc chuỗi khối, trong đó mỗi khối (block) chứa thông tin giao dịch và được liên kết với khối trước đó thông qua giá trị băm (hash). Đặc điểm quan trọng của Blockchain là tính bất biến - một khi dữ liệu đã được ghi vào, không thể sửa đổi mà không làm thay đổi toàn bộ chuỗi.
 
-SHA-256 (Secure Hash Algorithm 256-bit) la ham bam mot chieu duoc su dung rong rai trong Blockchain. Dac diem:
-- Dau ra luon co do dai co dinh 256 bit (64 ky tu hex)
-- Thay doi nho trong dau vao se tao ra dau ra hoan toan khac
-- Khong the tinh nguoc tu hash ra du lieu goc
+### 2. Nguyên lý hoạt động
 
-### 5. Nonce va Proof of Work
+Blockchain hoạt động dựa trên các nguyên tắc sau:
+- Phi tập trung (Decentralized): Không có máy chủ trung tâm, dữ liệu được phân tán trên nhiều node
+- Minh bạch (Transparent): Tất cả giao dịch đều công khai và có thể kiểm tra
+- Bất biến (Immutable): Dữ liệu đã ghi không thể thay đổi
+- Đồng thuận (Consensus): Các node phải đồng ý về trạng thái của chuỗi
 
-Nonce la mot so nguyen duoc dieu chinh lien tuc trong qua trinh dao (mining). May dao se thu lan luot cac gia tri nonce cho den khi tim duoc hash thoa man dieu kien do kho (vi du: bat dau bang mot so luong so 0 nhat dinh).
+### 3. Cấu trúc Block
 
-### 6. Mang P2P (Peer-to-Peer)
+Mỗi block trong Blockchain bao gồm các thành phần:
+- **Index**: Số thứ tự của block trong chuỗi
+- **Timestamp**: Thời gian tạo block
+- **Transactions**: Danh sách các giao dịch
+- **Previous Hash**: Giá trị băm của block trước đó
+- **Nonce**: Giá trị số được điều chỉnh để tìm hash hợp lệ
+- **Hash**: Giá trị băm của block hiện tại
 
-Blockchain su dung mang ngang hang P2P de phan tan du lieu:
-- Moi node giu mot ban sao cua toan bo blockchain
-- Khi co block moi, no duoc broadcast den tat ca cac node
-- Cac node xac minh va dong bo blockchain
+### 4. Hàm băm SHA-256
 
-## Ket qua dat duoc
+SHA-256 (Secure Hash Algorithm 256-bit) là hàm băm một chiều được sử dụng rộng rãi trong Blockchain. Đặc điểm:
+- Đầu ra luôn có độ dài cố định 256 bit (64 ký tự hex)
+- Thay đổi nhỏ trong đầu vào sẽ tạo ra đầu ra hoàn toàn khác
+- Không thể tính ngược từ hash ra dữ liệu gốc
 
-- Hieu ro nguyen ly hoat dong co ban cua Blockchain
-- Nam vung cau truc cua mot block va cach lien ket giua cac block
-- Hieu cach ham bam SHA-256 hoat dong va vai tro trong Blockchain
-- Hieu co che Proof of Work va vai tro cua nonce
-- Hieu kien truc mang P2P trong he thong Blockchain
+### 5. Nonce và Proof of Work
 
-## Kho khan gap phai
+Nonce là một số nguyên được điều chỉnh liên tục trong quá trình đào (mining). Máy đào sẽ thử lần lượt các giá trị nonce cho đến khi tìm được hash thỏa mãn điều kiện độ khó (ví dụ: bắt đầu bằng một số lượng số 0 nhất định).
 
-- Can thoi gian de hieu ro cac khai niem ky thuat phuc tap
-- Tai lieu tieng Viet con han che
+### 6. Mạng P2P (Peer-to-Peer)
 
-## Ke hoach tuan tiep theo
+Blockchain sử dụng mạng ngang hàng P2P để phân tán dữ liệu:
+- Mỗi node giữ một bản sao của toàn bộ blockchain
+- Khi có block mới, nó được broadcast đến tất cả các node
+- Các node xác minh và đồng bộ blockchain
 
-Nghien cuu ve vi dien tu, co che giao dich, luu tru khoa cong khai va khoa bi mat.
+## Kết quả đạt được
+
+- Hiểu rõ nguyên lý hoạt động cơ bản của Blockchain
+- Nắm vững cấu trúc của một block và cách liên kết giữa các block
+- Hiểu cách hàm băm SHA-256 hoạt động và vai trò trong Blockchain
+- Hiểu cơ chế Proof of Work và vai trò của nonce
+- Hiểu kiến trúc mạng P2P trong hệ thống Blockchain
+
+## Khó khăn gặp phải
+
+- Cần thời gian để hiểu rõ các khái niệm kỹ thuật phức tạp
+- Tài liệu tiếng Việt còn hạn chế
+
+## Kế hoạch tuần tiếp theo
+
+Nghiên cứu về ví điện tử, cơ chế giao dịch, lưu trữ khóa công khai và khóa bí mật.

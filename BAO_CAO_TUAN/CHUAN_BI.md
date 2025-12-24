@@ -1,42 +1,61 @@
-# BAO CAO TUAN - CHUAN BI
+# Đồ Án: Blockchain Cơ Bản và Ví Tiền Điện Tử
 
-## Thong tin co ban
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Learning-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- **Thoi gian**: Tu 03/11/2025 den 09/11/2025
-- **Giai doan**: Chuan bi
+## Thông Tin Đồ Án
 
-## Noi dung cong viec
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Kiều Tấn Phước |
+| **MSSV** | 110122144 |
+| **Lớp** | DA22TTB |
+| **Giảng viên** | ThS. Phan Thị Phương Nam |
+| **Trường** | Đại học Trà Vinh |
+| **Khoa** | Kỹ Thuật và Công Nghệ Thông Tin |
 
-### 1. Tim hieu va xac dinh de tai
+---
 
-Trong giai doan chuan bi, nhom da tien hanh tim hieu cac khai niem co ban ve cong nghe Blockchain va vi tien dien tu. Qua qua trinh nghien cuu so bo, nhom da xac dinh duoc pham vi de tai la "Tim hieu ve Blockchain co ban va vi tien dien tu" voi ngon ngu lap trinh Python.
+# BÁO CÁO TUẦN - GIAI ĐOẠN CHUẨN BỊ
 
-### 2. Thu thap tai lieu
+## Thông tin cơ bản
 
-Nhom da thu thap cac tai lieu lien quan bao gom:
-- Tai lieu ve nguyen ly hoat dong cua Blockchain
-- Tai lieu ve mat ma hoc va ham bam SHA-256
-- Tai lieu ve chu ky so ECDSA
-- Huong dan ve lap trinh Python va Flask framework
+- **Thời gian**: Từ 03/11/2025 đến 09/11/2025
+- **Giai đoạn**: Chuẩn bị
 
-### 3. Cai dat moi truong lap trinh
+## Nội dung công việc
 
-- Cai dat Python phien ban 3.x
-- Cai dat cac thu vien can thiet: Flask, ecdsa, hashlib
-- Cai dat Jupyter Notebook de phat trien va demo
-- Cau hinh moi truong ao (virtual environment)
+### 1. Tìm hiểu và xác định đề tài
 
-## Ket qua dat duoc
+Trong giai đoạn chuẩn bị, nhóm đã tiến hành tìm hiểu các khái niệm cơ bản về công nghệ Blockchain và ví tiền điện tử. Qua quá trình nghiên cứu sơ bộ, nhóm đã xác định được phạm vi đề tài là "Tìm hiểu về Blockchain cơ bản và ví tiền điện tử" với ngôn ngữ lập trình Python.
 
-- Xac dinh ro rang huong nghien cuu ve Blockchain va vi dien tu
-- Lua chon duoc cong cu lap trinh phu hop (Python, Flask)
-- Hoan thanh cai dat moi truong phat trien
-- San sang cho giai doan nghien cuu ly thuyet
+### 2. Thu thập tài liệu
 
-## Kho khan gap phai
+Nhóm đã thu thập các tài liệu liên quan bao gồm:
+- Tài liệu về nguyên lý hoạt động của Blockchain
+- Tài liệu về mật mã học và hàm băm SHA-256
+- Tài liệu về chữ ký số ECDSA
+- Hướng dẫn về lập trình Python và Flask framework
 
-Chua gap kho khan dang ke trong giai doan nay.
+### 3. Cài đặt môi trường lập trình
 
-## Ke hoach tuan tiep theo
+- Cài đặt Python phiên bản 3.x
+- Cài đặt các thư viện cần thiết: Flask, ecdsa, hashlib
+- Cài đặt Jupyter Notebook để phát triển và demo
+- Cấu hình môi trường ảo (virtual environment)
 
-Bat dau tim hieu tong quan ve cong nghe Blockchain, nguyen ly hoat dong, cau truc block, hash, nonce va mang P2P.
+## Kết quả đạt được
+
+- Xác định rõ ràng hướng nghiên cứu về Blockchain và ví điện tử
+- Lựa chọn được công cụ lập trình phù hợp (Python, Flask)
+- Hoàn thành cài đặt môi trường phát triển
+- Sẵn sàng cho giai đoạn nghiên cứu lý thuyết
+
+## Khó khăn gặp phải
+
+Chưa gặp khó khăn đáng kể trong giai đoạn này.
+
+## Kế hoạch tuần tiếp theo
+
+Bắt đầu tìm hiểu tổng quan về công nghệ Blockchain, nguyên lý hoạt động, cấu trúc block, hash, nonce và mạng P2P.

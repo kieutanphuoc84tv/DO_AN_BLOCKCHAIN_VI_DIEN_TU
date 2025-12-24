@@ -1,61 +1,80 @@
-# BAO CAO KET THUC DU AN
+# Đồ Án: Blockchain Cơ Bản và Ví Tiền Điện Tử
 
-## Thong tin co ban
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Learning-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-- **Ngay nop**: 29/12/2025
-- **Ten de tai**: Tim hieu ve Blockchain co ban va vi tien dien tu
-- **Ngon ngu**: Python
+## Thông Tin Đồ Án
 
-## Tong quan du an
+| Thông tin | Chi tiết |
+|-----------|----------|
+| **Sinh viên** | Kiều Tấn Phước |
+| **MSSV** | 110122144 |
+| **Lớp** | DA22TTB |
+| **Giảng viên** | ThS. Phan Thị Phương Nam |
+| **Trường** | Đại học Trà Vinh |
+| **Khoa** | Kỹ Thuật và Công Nghệ Thông Tin |
 
-Du an nay xay dung mot ung dung mo phong he thong Blockchain va vi tien dien tu, giup nguoi dung hieu ro nguyen ly hoat dong cua cong nghe Blockchain thong qua giao dien truc quan.
+---
 
-## Cac tinh nang chinh
+# BÁO CÁO KẾT THÚC DỰ ÁN
 
-### 1. He thong Blockchain
-- Cau truc block voi index, hash, previous_hash, nonce, transactions
-- Proof of Work voi do kho co the dieu chinh
-- Mo phong qua trinh dao voi hien thi that bai va thanh cong
+## Thông tin cơ bản
 
-### 2. Vi dien tu
-- Tao vi voi cap khoa ECDSA
-- Hien thi khoa cong khai va khoa bi mat
-- Kiem tra so du
+- **Ngày nộp**: 29/12/2025
+- **Tên đề tài**: Tìm hiểu về Blockchain cơ bản và ví tiền điện tử
+- **Ngôn ngữ**: Python
 
-### 3. Giao dich
-- Tao giao dich giua cac vi
-- Ky giao dich bang chu ky so ECDSA
-- Xac minh chu ky truoc khi xac nhan
+## Tổng quan dự án
 
-### 4. Mang P2P
-- Mo phong 4 node mang
-- Broadcast block moi den cac node
-- Dong bo blockchain giua cac node
-- Bat/tat node de mo phong tinh huong that
+Dự án này xây dựng một ứng dụng mô phỏng hệ thống Blockchain và ví tiền điện tử, giúp người dùng hiểu rõ nguyên lý hoạt động của công nghệ Blockchain thông qua giao diện trực quan.
 
-### 5. Giao dien web
-- Tao va quan ly vi
-- Gui giao dich
-- Tu dong dao
+## Các tính năng chính
+
+### 1. Hệ thống Blockchain
+- Cấu trúc block với index, hash, previous_hash, nonce, transactions
+- Proof of Work với độ khó có thể điều chỉnh
+- Mô phỏng quá trình đào với hiển thị thất bại và thành công
+
+### 2. Ví điện tử
+- Tạo ví với cặp khóa ECDSA
+- Hiển thị khóa công khai và khóa bí mật
+- Kiểm tra số dư
+
+### 3. Giao dịch
+- Tạo giao dịch giữa các ví
+- Ký giao dịch bằng chữ ký số ECDSA
+- Xác minh chữ ký trước khi xác nhận
+
+### 4. Mạng P2P
+- Mô phỏng 4 node mạng
+- Broadcast block mới đến các node
+- Đồng bộ blockchain giữa các node
+- Bật/tắt node để mô phỏng tình huống thật
+
+### 5. Giao diện web
+- Tạo và quản lý ví
+- Gửi giao dịch
+- Tự động đào
 - Xem Blockchain Explorer
-- Xem lich su Mining
-- Xem so cai giao dich
-- Xem mang P2P
+- Xem lịch sử Mining
+- Xem sổ cái giao dịch
+- Xem mạng P2P
 
-## Ket qua dat duoc
+## Kết quả đạt được
 
-- Hoan thanh 100% cac tinh nang yeu cau
-- Ung dung hoat dong on dinh
-- Giao dien than thien, de su dung
-- Code sach, co cau truc ro rang
+- Hoàn thành 100% các tính năng yêu cầu
+- Ứng dụng hoạt động ổn định
+- Giao diện thân thiện, dễ sử dụng
+- Code sạch, có cấu trúc rõ ràng
 
-## Huong phat trien
+## Hướng phát triển
 
-- Them tinh nang smart contract
-- Ket noi nhieu may tinh thuc su trong mang P2P
-- Them bao mat cho vi
-- Phat trien ung dung di dong
+- Thêm tính năng smart contract
+- Kết nối nhiều máy tính thực sự trong mạng P2P
+- Thêm bảo mật cho ví
+- Phát triển ứng dụng di động
 
-## Ket luan
+## Kết luận
 
-Du an da hoan thanh tot cac muc tieu de ra, giup nguoi dung hieu ro ve cong nghe Blockchain va vi tien dien tu thong qua ung dung mo phong truc quan.
+Dự án đã hoàn thành tốt các mục tiêu đề ra, giúp người dùng hiểu rõ về công nghệ Blockchain và ví tiền điện tử thông qua ứng dụng mô phỏng trực quan.
