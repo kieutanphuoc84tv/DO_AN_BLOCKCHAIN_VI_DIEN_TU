@@ -146,8 +146,4 @@ DO_AN_BLOCKCHAIN_VI_DIEN_TU/
 
 **Kiều Tấn Phước** - Sinh viên Đại học Trà Vinh
 
----
 
-## Giấy Phép
-
-Dự án này được phát hành dưới giấy phép MIT.
